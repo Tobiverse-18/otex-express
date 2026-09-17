@@ -1,0 +1,622 @@
+.book-shipment {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 125px 0 110px;
+  background: #080d13;
+  color: #ffffff;
+}
+
+.book-shipment-container {
+  width: min(1280px, calc(100% - 80px));
+  margin: 0 auto;
+}
+
+/* ================================
+   HEADER
+================================ */
+
+.book-shipment-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 70px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.book-shipment-title-block {
+  max-width: 850px;
+}
+
+.book-shipment-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  margin-bottom: 27px;
+  color: rgba(255, 255, 255, 0.48);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+.book-shipment-eyebrow span {
+  width: 28px;
+  height: 1px;
+  background: white;
+}
+
+.book-shipment-eyebrow p{
+    color:#ffffff;
+}
+
+.book-shipment-title-block h1 {
+  margin: 0;
+  font-size: clamp(52px, 6vw, 82px);
+  line-height: 0.97;
+  font-weight: 600;
+  letter-spacing: -4px;
+}
+
+.book-shipment-title-block h1 em {
+  font-style: normal;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.52);
+}
+
+.book-shipment-header-side {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 8px;
+}
+
+.book-shipment-side-label {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+.book-shipment-side-subtitle {
+  margin-top: 7px;
+  color: rgba(255, 255, 255, 0.32);
+  font-size: 8px;
+  font-weight: 500;
+  letter-spacing: 2.3px;
+}
+
+/* ================================
+   INTRODUCTION
+================================ */
+
+.book-shipment-introduction {
+  display: flex;
+  justify-content: center;
+  padding: 38px 0 65px;
+}
+
+.book-shipment-introduction p {
+  width: 470px;
+  margin: 0;
+  color: white;
+  font-size: 14px;
+  line-height: 1.85;
+}
+
+/* ================================
+   FORM
+================================ */
+
+.book-shipment-form {
+  width: 100%;
+  border-top: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.booking-form-section {
+  display: grid;
+  grid-template-columns: 90px minmax(0, 1fr);
+  gap: 0;
+  padding: 55px 0 65px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.booking-form-number {
+  align-self: start;
+  padding-top: 4px;
+  color: rgba(255, 255, 255, 0.28);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+}
+
+.booking-form-section:first-child .booking-form-number {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.booking-form-content {
+  min-width: 0;
+}
+
+.booking-form-section-heading {
+  display: block;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 48px;
+}
+
+.booking-form-section-heading h2 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 28px;
+  line-height: 1.1;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+}
+
+.booking-form-section-heading p {
+  width: 390px;
+  margin: 0;
+  color: white;
+  font-size: 12px;
+  line-height: 1.8;
+  margin-top: 10px;
+  
+}
+
+/* ================================
+   FIELDS
+================================ */
+
+.booking-fields {
+  display: grid;
+  gap: 55px;
+}
+
+.booking-fields-two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.booking-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.booking-field-full {
+  margin-top: 38px;
+}
+
+.booking-field label {
+  margin-bottom: 13px;
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.booking-field input,
+.booking-field select,
+.booking-field textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 0;
+  outline: none;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  transition: border-color 0.3s ease;
+}
+
+.booking-field input,
+.booking-field select {
+  height: 48px;
+}
+
+.booking-field textarea {
+  min-height: 115px;
+  padding: 12px 0;
+  resize: vertical;
+  line-height: 1.7;
+}
+
+.booking-field input::placeholder,
+.booking-field textarea::placeholder {
+  color: white;
+}
+
+.booking-field input:focus,
+.booking-field select:focus,
+.booking-field textarea:focus {
+  border-bottom-color: rgba(255, 255, 255, 0.65);
+}
+
+/* SELECT */
+
+.booking-field select {
+  cursor: pointer;
+  appearance: none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, rgba(255, 255, 255, 0.45) 50%),
+    linear-gradient(135deg, rgba(255, 255, 255, 0.45) 50%, transparent 50%);
+  background-position:
+    calc(100% - 8px) 21px,
+    calc(100% - 3px) 21px;
+  background-size:
+    5px 5px,
+    5px 5px;
+  background-repeat: no-repeat;
+}
+
+.booking-field select option {
+  background: #080d13;
+  color: #ffffff;
+}
+
+/* DATE */
+
+.booking-field input[type="date"] {
+  color-scheme: dark;
+}
+
+.booking-field input[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0.45;
+  cursor: pointer;
+}
+
+/* ================================
+   CHOICE BUTTONS
+================================ */
+
+.booking-choice-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.booking-choice {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 0 22px;
+  border: 2px solid rgba(255, 255, 255, 0.16);
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.43);
+  font-size: 11px;
+  font-weight: 500;
+  font-style: bold;
+  letter-spacing: 0.4px;
+  transition:
+    border-color 0.3s ease,
+    background 0.3s ease,
+    color 0.3s ease;
+}
+
+.booking-choice:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.booking-choice.active {
+  border-color: white;
+  background: red;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.booking-choice input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.booking-choice span {
+  white-space: nowrap;
+}
+
+.booking-choice-group.compact {
+  gap: 8px;
+}
+
+.booking-choice-group.compact .booking-choice {
+  min-width: 72px;
+  min-height: 42px;
+  padding: 0 18px;
+}
+
+/* ================================
+   SUBMIT AREA
+================================ */
+
+.booking-submit-area {
+  padding-top: 55px;
+}
+
+.booking-submit-content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.booking-submit-content p {
+  width: 430px;
+  margin: 0;
+  color: white;
+  font-size: 11px;
+  line-height: 1.8;
+}
+
+.booking-submit-content button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  min-width: 230px;
+  height: 58px;
+  padding: 0 25px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: transparent;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  transition:
+    background 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease;
+}
+
+.booking-submit-content button:hover {
+  border-color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.booking-submit-content button span {
+  font-size: 17px;
+  font-weight: 300;
+  transition: transform 0.3s ease;
+}
+
+.booking-submit-content button:hover span {
+  transform: translateX(5px);
+}
+
+.booking-submit-content button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* ================================
+   MESSAGES
+================================ */
+
+.booking-message {
+  margin-bottom: 30px;
+  padding: 16px 18px;
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.booking-success {
+  color: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.booking-error {
+  color: rgba(255, 255, 255, 0.72);
+  border-color: rgba(255, 120, 120, 0.3);
+}
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 1050px) {
+  .book-shipment-container {
+    width: min(100% - 50px, 1280px);
+  }
+
+  .book-shipment-header {
+    padding-bottom: 55px;
+  }
+
+  .book-shipment-header-side {
+    display: none;
+  }
+
+  .booking-form-section {
+    grid-template-columns: 70px minmax(0, 1fr);
+  }
+
+  .booking-form-section-heading {
+    gap: 35px;
+  }
+
+  .booking-form-section-heading p {
+    width: 320px;
+  }
+
+  .booking-fields {
+    gap: 35px;
+  }
+}
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 750px) {
+  .book-shipment {
+    padding: 90px 0 85px;
+  }
+
+  .book-shipment-container {
+    width: calc(100% - 40px);
+  }
+
+  .book-shipment-header {
+    padding-bottom: 45px;
+  }
+
+  .book-shipment-title-block h1 {
+    font-size: clamp(45px, 11vw, 65px);
+    letter-spacing: -3px;
+  }
+
+  .book-shipment-introduction {
+    justify-content: flex-start;
+    padding: 30px 0 50px;
+  }
+
+  .book-shipment-introduction p {
+    width: 100%;
+    max-width: 550px;
+    font-size: 13px;
+  }
+
+  .booking-form-section {
+    grid-template-columns: 45px 1fr;
+    padding: 40px 0 50px;
+  }
+
+  .booking-form-number {
+    padding-top: 4px;
+    font-size: 9px;
+  }
+
+  .booking-form-section-heading {
+    display: block;
+    margin-bottom: 38px;
+  }
+
+  .booking-form-section-heading h2 {
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+
+  .booking-form-section-heading p {
+    width: 100%;
+    max-width: 500px;
+    font-size: 12px;
+    line-height: 1.75;
+  }
+
+  .booking-fields-two {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .booking-field-full {
+    margin-top: 32px;
+  }
+
+  .booking-field label {
+    font-size: 8px;
+    letter-spacing: 1.8px;
+  }
+
+  .booking-field input,
+  .booking-field select {
+    height: 46px;
+    font-size: 13px;
+  }
+
+  .booking-field textarea {
+    font-size: 13px;
+  }
+
+  .booking-choice {
+    min-height: 44px;
+    padding: 0 18px;
+    font-size: 10px;
+  }
+
+  .booking-submit-area {
+    padding-top: 45px;
+  }
+
+  .booking-submit-content {
+    display: block;
+  }
+
+  .booking-submit-content p {
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 11px;
+  }
+
+  .booking-submit-content button {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+/* ================================
+   SMALL PHONES
+================================ */
+
+@media (max-width: 480px) {
+  .book-shipment {
+    padding: 120px 0 75px;
+  }
+
+  .book-shipment-container {
+    width: calc(100% - 30px);
+  }
+
+  .book-shipment-eyebrow {
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+
+  .book-shipment-title-block h1 {
+    font-size: 43px;
+    letter-spacing: -2.5px;
+  }
+
+  .book-shipment-introduction {
+    padding: 27px 0 40px;
+  }
+
+  .booking-form-section {
+    grid-template-columns: 35px 1fr;
+    padding: 32px 0 42px;
+  }
+
+  .booking-form-number {
+    font-size: 8px;
+  }
+
+  .booking-form-section-heading h2 {
+    font-size: 19px;
+  }
+
+  .booking-form-section-heading p {
+    font-size: 11.5px;
+  }
+
+  .booking-choice {
+    padding: 0 15px;
+    font-size: 9px;
+  }
+
+  .booking-choice-group.compact .booking-choice {
+    min-width: 65px;
+    padding: 0 14px;
+  }
+
+  .booking-submit-content button {
+    height: 55px;
+    font-size: 9px;
+    letter-spacing: 1.7px;
+  }
+}

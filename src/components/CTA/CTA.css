@@ -39,7 +39,12 @@
 .cta-eyebrow span {
   width: 28px;
   height: 1px;
-  background: rgba(255, 255, 255, 0.6);
+  background: white;
+}
+
+.cta-eyebrow p {
+  margin: 0;
+  color:#ffffff
 }
 
 .cta-title-block h2 {
@@ -52,7 +57,7 @@
 
 .cta-title-block h2 em {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   color: rgba(255, 255, 255, 0.52);
 }
 
@@ -93,7 +98,7 @@
 .cta-content p {
   width: 430px;
   margin: 0;
-  color: rgba(255, 255, 255, 0.48);
+  color: whitesmoke;
   font-size: 14px;
   line-height: 1.85;
 }

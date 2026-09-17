@@ -99,11 +99,8 @@
   letter-spacing: 2.5px;
 }
 
-.hero-eyebrow span {
-  width: 28px;
-  height: 1px;
-
-  background: rgba(255, 255, 255, 0.7);
+.hero-eyebrow p{
+  color:#ffffff;
 }
 
 .hero h1 {
@@ -120,7 +117,7 @@
 
 .hero h1 em {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600 ;
   color: rgba(255, 255, 255, 0.72);
 }
 
@@ -129,7 +126,7 @@
 
   margin: 31px 0 0;
 
-  color: rgba(255, 255, 255, 0.68);
+  color: white;
 
   font-size: 15px;
   line-height: 1.8;

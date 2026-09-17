@@ -19,43 +19,47 @@ function Navbar() {
         </a>
 
         <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
-          <a href="#home" onClick={closeMenu}>
+          <a href="/" onClick={closeMenu}>
             Home
           </a>
 
-          <a href="#about" onClick={closeMenu}>
+          <a href="/#about" onClick={closeMenu}>
             About
           </a>
 
-          <a href="#services" onClick={closeMenu}>
+          <a href="/#services" onClick={closeMenu}>
             Services
           </a>
 
-          <a href="#locations" onClick={closeMenu}>
+          <a href="/#locations" onClick={closeMenu}>
             Locations
           </a>
 
-          <a href="#contact" onClick={closeMenu}>
+          <a href="/#contact" onClick={closeMenu}>
             Contact
           </a>
 
           <div className="mobile-nav-actions">
-            <a href="#track" className="nav-track" onClick={closeMenu}>
+            <a href="/track" className="nav-track" onClick={closeMenu}>
               Track Shipment
             </a>
 
-            <a href="#book" className="nav-book" onClick={closeMenu}>
+            <a
+              href="/book-shipment"
+              className="nav-book"
+              onClick={closeMenu}
+            >
               Book a Shipment
             </a>
           </div>
         </nav>
 
         <div className="desktop-nav-actions">
-          <a href="#track" className="nav-track">
+          <a href="/track" className="nav-track">
             Track Shipment
           </a>
 
-          <a href="#book" className="nav-book">
+          <a href="/book-shipment" className="nav-book">
             Book a Shipment
           </a>
         </div>

@@ -76,13 +76,13 @@ function About() {
 
           <div className="about-eyebrow">
             <span></span>
-            ABOUT OTEX EXPRESS
+            <p>ABOUT OTEX EXPRESS</p>
           </div>
 
           <h2>
             Logistics built around
             <br />
-            <em>the journey.</em>
+            <em>The journey.</em>
           </h2>
 
           <div className="about-mobile-gallery">

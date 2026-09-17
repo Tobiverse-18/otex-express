@@ -36,7 +36,7 @@
 
 .footer-tagline {
   margin-top: 7px;
-  color: rgba(255, 255, 255, 0.3);
+  color: whitesmoke;
   font-size: 8px;
   font-weight: 500;
   letter-spacing: 2.5px;
@@ -45,7 +45,7 @@
 .footer-brand p {
   max-width: 300px;
   margin: 35px 0 0;
-  color: rgba(255, 255, 255, 0.4);
+  color: whitesmoke;
   font-size: 13px;
   line-height: 1.8;
 }
@@ -61,7 +61,7 @@
 .footer-heading {
   display: block;
   margin-bottom: 23px;
-  color: rgba(255, 255, 255, 0.3);
+  color: whitesmoke;
   font-size: 9px;
   font-weight: 600;
   letter-spacing: 2.2px;
@@ -69,7 +69,7 @@
 
 .footer-column a {
   margin-bottom: 13px;
-  color: rgba(255, 255, 255, 0.62);
+  color: white;
   font-size: 13px;
   line-height: 1.4;
   text-decoration: none;
@@ -92,7 +92,7 @@
 
 .footer-location p {
   margin: 0;
-  color: rgba(255, 255, 255, 0.42);
+  color: whitesmoke;
   font-size: 12px;
   line-height: 1.8;
 }
@@ -109,7 +109,7 @@
 }
 
 .footer-copyright {
-  color: rgba(255, 255, 255, 0.3);
+  color: whitesmoke;
   font-size: 10px;
   letter-spacing: 0.3px;
 }
@@ -121,7 +121,7 @@
 }
 
 .footer-legal-links a {
-  color: rgba(255, 255, 255, 0.38);
+  color: whitesmoke;
   font-size: 10px;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -141,7 +141,7 @@
 }
 
 .footer-bottom span {
-  color: rgba(255, 255, 255, 0.23);
+  color: whitesmoke;
   font-size: 8px;
   font-weight: 500;
   letter-spacing: 2px;

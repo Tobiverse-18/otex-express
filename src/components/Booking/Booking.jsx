@@ -49,13 +49,13 @@ function Booking() {
           <div className="booking-title-block">
             <div className="booking-eyebrow">
               <span></span>
-              BOOK A SHIPMENT
+              <p>BOOK A SHIPMENT</p>
             </div>
 
             <h2>
               Move what matters.
               <br />
-              <em>with clarity.</em>
+              <em>With clarity.</em>
             </h2>
           </div>
 

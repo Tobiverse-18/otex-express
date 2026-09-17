@@ -49,7 +49,7 @@ function Services() {
           <div className="services-title-block">
             <div className="services-eyebrow">
               <span></span>
-              OUR SERVICES
+              <p>OUR SERVICES</p>
             </div>
 
             <h2>

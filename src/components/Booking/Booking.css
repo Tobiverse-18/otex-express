@@ -46,8 +46,12 @@
   width: 28px;
   height: 1px;
 
-  background: rgba(255, 255, 255, 0.6);
+  background: white;
 }
+
+.booking-eyebrow p{
+    color:#ffffff
+  }
 
 .booking-title-block h2 {
   margin: 0;
@@ -61,7 +65,7 @@
 
 .booking-title-block h2 em {
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
 
   color: rgba(255, 255, 255, 0.52);
 }
@@ -109,7 +113,7 @@
   width: 430px;
   margin: 0;
 
-  color: rgba(255, 255, 255, 0.48);
+  color: whitesmoke;
 
   font-size: 14px;
   line-height: 1.85;
@@ -138,7 +142,7 @@
 
   padding-top: 31px;
 
-  color: rgba(255, 255, 255, 0.28);
+  color: white;
 
   font-size: 10px;
   font-weight: 600;
@@ -168,7 +172,7 @@
 .booking-field label {
   margin-bottom: 14px;
 
-  color: rgba(255, 255, 255, 0.42);
+  color: white;
 
   font-size: 10px;
   font-weight: 600;
@@ -183,14 +187,14 @@
   padding: 0;
 
   border: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid white;
 
   border-radius: 0;
 
   outline: none;
 
   background: transparent;
-  color: rgba(255, 255, 255, 0.9);
+  color: white;
 
   font-family: inherit;
   font-size: 14px;
@@ -199,7 +203,7 @@
 }
 
 .booking-field input::placeholder {
-  color: rgba(255, 255, 255, 0.27);
+  color: white;
 }
 
 .booking-field input:focus,

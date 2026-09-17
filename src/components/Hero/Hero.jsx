@@ -41,8 +41,7 @@ function Hero() {
       <div className="hero-container">
         <div className="hero-content">
           <div className="hero-eyebrow">
-            <span></span>
-            OTEX EXPRESS · HAULAGE & LOGISTICS
+            <p>OTEX EXPRESS · HAULAGE & LOGISTICS</p>
           </div>
 
           <h1>
@@ -57,9 +56,9 @@ function Hero() {
           </p>
 
           <div className="hero-actions">
-            <a href="#book" className="hero-primary-btn">
+            <a href="/book-shipment" className="hero-primary-btn">
               Book a Shipment
-              <span>↗</span>
+              
             </a>
 
             <a href="#track" className="hero-secondary-btn">

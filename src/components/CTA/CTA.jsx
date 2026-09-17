@@ -9,7 +9,7 @@ function CTA() {
           <div className="cta-title-block">
             <div className="cta-eyebrow">
               <span></span>
-              READY WHEN YOU ARE
+              <p>READY WHEN YOU ARE</p>
             </div>
 
             <h2>
@@ -36,7 +36,7 @@ function CTA() {
             a load to its destination, start with a shipment request.
           </p>
 
-          <a href="#booking" className="cta-button">
+          <a href="/book-shipment" className="cta-button">
             REQUEST A SHIPMENT
             <span>→</span>
           </a>

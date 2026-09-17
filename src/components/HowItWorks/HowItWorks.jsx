@@ -32,7 +32,7 @@ function HowItWorks() {
           <div className="how-it-works-title-block">
             <div className="how-it-works-eyebrow">
               <span></span>
-              HOW IT WORKS
+               <p>HOW IT WORKS</p>
             </div>
 
             <h2>

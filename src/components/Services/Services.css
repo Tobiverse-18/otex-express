@@ -57,7 +57,13 @@
 
   height: 1px;
 
-  background: rgba(255, 255, 255, 0.6);
+  background: white;
+}
+
+.services-eyebrow p {
+  margin: 0;
+
+  color: white;
 }
 
 .services-title-block h2 {
@@ -75,7 +81,7 @@
 .services-title-block h2 em {
   font-style: normal;
 
-  font-weight: 300;
+  font-weight: 600;
 
   color: rgba(255, 255, 255, 0.52);
 }
@@ -175,7 +181,7 @@
 
   padding-top: 31px;
 
-  color: rgba(255, 255, 255, 0.28);
+  color: whitesmoke;
 
   font-size: 10px;
 
@@ -219,7 +225,7 @@
 
   margin: 0;
 
-  color: rgba(255, 255, 255, 0.42);
+  color: whitesmoke;
 
   font-size: 13px;
 
@@ -255,7 +261,7 @@
 }
 
 .service-item-featured .service-number {
-  color: rgba(255, 255, 255, 0.55);
+  color: whitesmoke;
 }
 
 .service-item-featured .service-main h3 {
